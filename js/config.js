@@ -60,7 +60,7 @@ export default {
 
 	// Add the current slide number to the URL hash so that reloading the
 	// page/copying the URL will return you to the same slide
-	hash: false,
+	hash: true,
 
 	// Flags if we should monitor the hash and change slides accordingly
 	respondToHashChanges: true,
